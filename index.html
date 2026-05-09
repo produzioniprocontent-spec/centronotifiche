@@ -1,1 +1,19 @@
-<h1>Test Piattaforma Notifiche</h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Centro Notifiche Test</title>
+  <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+  <script>
+    window.OneSignalDeferred = window.OneSignalDeferred || [];
+    OneSignalDeferred.push(function(OneSignal) {
+      OneSignal.init({
+        appId: "IL_TUO_APP_ID",
+      });
+    });
+  </script>
+</head>
+<body>
+  <h1>La tua Piattaforma Notifiche è attiva!</h1>
+  <p>Se vedi questa pagina, il collegamento con GitHub funziona.</p>
+</body>
+</html>
